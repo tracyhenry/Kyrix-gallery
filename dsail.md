@@ -71,3 +71,11 @@ We'd like to learn more about real-world application requirements to make Kyrix 
 
 # Other video demos
 *please keep the original three video demos here*
+
+# Citations
+
+Wenbo Tao, Xinli Hou, Adam Sah, Leilani Battle, Remco Chang and Michael Stonebraker. [Kyrix-S: Authoring Scalable Scatterplot Visualizations of Big Data](https://arxiv.org/pdf/2007.15904.pdf). IEEE Information Visualization (InfoVis at VIS) 2020.
+
+Wenbo Tao, Xiaoyu Liu, Yedi Wang, Leilani Battle, Cagatay Demiralp, Remco Chang and Michael Stonebraker. [Kyrix: Interactive Pan/Zoom Visualizations at Scale](http://web.mit.edu/wenbo/www/kyrix_eurovis.pdf). Eurographics Conference on Visualization (EuroVis) 2019.
+
+Wenbo Tao, Xiaoyu Liu, Cagatay Demiralp, Remco Chang and Michael Stonebraker. [Kyrix: Interactive Visual Data Exploration at Scale](http://cidrdb.org/cidr2019/papers/p70-tao-cidr19.pdf). Conference on Innovative Data Systems Research (CIDR) 2019.
