@@ -1,6 +1,8 @@
 # Kyrix: Democratizing Details-on-demand Data Visualizations
 
-Kyrix is an [open-source system](https://github.com/tracyhenry/kyrix) which facilitates the creation of data visualizations with details-on-demand interactions. As such, it supports a pan/zoom/jump interface similar to Google Maps. The benefit of such systems is the interface can be learned quickly and no user manual is required.  Also, it facilitates browsing over large amounts of data, drilling into areas of interest to get more information.  Although Kyrix is a natural on geographic data, it can also be used on many other kinds of data that are amenable to a two-dimensional layout (see the demo GIF below). 
+Kyrix is an [open-source system](https://github.com/tracyhenry/kyrix) which facilitates the creation of data visualizations with details-on-demand interactions. As such, it supports a pan/zoom/jump interface similar to Google Maps. The benefit of such systems is the interface can be learned quickly and no user manual is required.  Also, it facilitates browsing over large amounts of data, drilling into areas of interest to get more information.  Although Kyrix is a natural on geographic data, it can also be used on many other kinds of data that are amenable to a two-dimensional layout:
+
+*Please help insert this video here*: https://youtu.be/DyQNJk8k8ac
 
 Many detail-on-demand systems have been constructed for various kinds of data. However, these have generally been hard-coded to support exactly that class of applications. In contrast, Kyrix is easily programmable to support any kinds of objects, not just maps or satellite imagery.
 
@@ -55,16 +57,11 @@ Kyrix-S is an extension to Kyrix, which focuses on optimizing large-scale scatte
 into
 <p align="center">
 <a href="https://github.com/tracyhenry/Kyrix/tree/master/compiler/examples/nba_cmv">
-<img src="https://media.giphy.com/media/d7xqGWf1Q4sftNOuZd/giphy.gif" width = "300"/>
+<img src="https://media.giphy.com/media/d7xqGWf1Q4sftNOuZd/giphy.gif" width = "375"/>
 </a>
 </p>
 
 Another example visualization with one billion Reddit comments can be found [here](https://youtu.be/ccES97ni_vI). Behind the scenes, Kyrix-S talks to Citus, a multi-node distributed PostgresQL database. We developed a distributed algorithm which automatically infers object placement on all zoom levels, and stores them in Citus for scalability. Kyrix-S is now [open-sourced](https://github.com/tracyhenry/kyrix) as part of the first public release of Kyrix.
-
-
-<p align="center">
-  <img src="https://github.com/tracyhenry/Kyrix-gallery/blob/master/gallery.gif" width="700" />
-</p>
 
 
 ## Kyrix in the Wild
@@ -72,6 +69,5 @@ We have applied Kyrix to build an in-production system for the neurology group a
 
 We'd like to learn more about real-world application requirements to make Kyrix better. If you have a Kyrix app in mind for your data, please reach out to us (Wenbo Tao: wenbo@mit.edu, and Mike Stonebraker: stonebraker@csail.mit.edu). 
 
-# Video demos
-Please help add this video: https://youtu.be/DyQNJk8k8ac in addition to the three current demos (please put it at the first). 
-
+# Other video demos
+*please keep the original three video demos here*
